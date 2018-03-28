@@ -1,0 +1,16 @@
+#MySQL
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://140.143.198.72:3306/wztest
+    username: root
+    password: wz12345
+  jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+server:
+  port: 8089
+
+
+
